@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body {
+	background-color: #f8f8f8;
+}
+
+.book-library {
+	box-shadow: 0 3px 5px black;
+	width: 700px;
+}
+
+.book-library-heading {
+	text-align: center;
+	background-color: ##ffffff;
+	margin-bottom: 15px;
+	height: 30px;
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+.book {
+	background-color: ##ffffff;
+	margin-bottom: 15px;
+	text-align: center;
+	padding: 10px;
+	line-height: 10px;
+}
+
+.para {
+	color: #777777;
+	text-align: left;
+}
+
+.btn {
+	background-color: #2ecc71;
+	width: 670px;
+	padding: 7px;
+	border: none;
+	color: white;
+}
+
+.heading {
+	text-align: left;
+}
