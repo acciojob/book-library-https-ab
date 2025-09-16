@@ -1,44 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
 }
 
+/* Book Library Container */
 .book-library {
-    box-shadow: 0 3px 5px black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduced opacity for softer shadow */
     width: 700px;
+    background-color: white; /* White background for the container */
+    margin: 30px auto; /* Center the book library on the page */
+    padding: 20px; /* Padding around the container */
 }
 
+/* Book Library Heading */
 .book-library-heading {
     text-align: center;
-    background-color: #ffffff;
-    margin-bottom: 15px;
-    height: 30px;
+    background-color: #ffffff; /* White background */
+    margin-bottom: 20px;
+    height: 40px; /* Slightly increased height */
     font-weight: bold;
-    padding-top: 8px;
+    font-size: 24px; /* Font size for heading */
+    line-height: 40px; /* Vertically center the text */
 }
 
+/* Book Item */
 .book {
-    background-color: rgb(46, 204, 113); /* Apply background directly to .book */
+    background-color: #ffffff;
     margin-bottom: 15px;
     text-align: center;
     padding: 10px;
-    line-height: 10px;
-    border-radius: 5px; /* Rounded corners */
+    line-height: 1.5; /* Better line spacing */
+    border-radius: 8px; /* Rounded corners for book blocks */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for book item */
 }
 
-.para {
-    color: rgb(119, 119, 119); /* Author text color */
-    text-align: left;
+/* Book Image */
+.image {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto;
+    border-radius: 8px; /* Round the corners of the image */
+    margin-bottom: 15px; /* Space between image and text */
 }
 
-.btn {
-    background-color: rgb(46, 204, 113);
-    width: 670px;
-    padding: 7px;
-    border: none;
-    color: white;
-}
-
+/* Book Title */
 .heading {
     text-align: left;
-    color: rgb(255, 255, 255); /* White color for book titles */
+    font-size: 20px; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Spacing below the title */
+    color: #333; /* Dark color for the title */
+}
+
+/* Book Description */
+.para {
+    color: #777777; /* Grey color for description */
+    text-align: left;
+    margin-bottom: 10px; /* Spacing below the paragraph */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #2ecc71; /* Green button */
+    width: 100%; /* Full width for button */
+    padding: 12px;
+    border: none;
+    color: white;
+    font-size: 16px; /* Button font size */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #27ae60; /* Darker green when hovered */
 }
