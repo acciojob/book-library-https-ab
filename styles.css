@@ -39,6 +39,7 @@ body {
 
 .book-library {
 	width: 600px;
+	box-shadow: 0 3px 5px #939185;
 }
 
 img {
