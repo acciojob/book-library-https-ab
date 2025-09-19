@@ -16,21 +16,21 @@ body {
 	margin-bottom: 20px;
 }
 
-.book h3 {
+.book h2 {
 	text-align: left;
-	margin-bottom: -35px;
-	margin-left: -18px;
+	margin-bottom: -10px;
+	margin-left: 1px;
 }
 
 .book p {
-	color: #777777;
+	color: rgb(119, 119, 119);
 	text-align: left;
 	margin-bottom: 5px;
 	margin-left: 3px;
 }
 
-.book-library .book button {
-	background-color: #2ecc71;
+.book-library .book div {
+	background-color: rgb(46, 204, 113);
 	border: none;
 	padding: 10px;
 	width: 550px;
@@ -43,6 +43,6 @@ body {
 }
 
 img {
-	margin-bottom: -30px;
+	/* margin-bottom: -30px; */
 }
 
